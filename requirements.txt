@@ -1,0 +1,9 @@
+streamlit==1.20.0
+pandas==1.5.1
+plotly==5.11.0
+snscrape==0.6.2.20230320
+textblob==0.17.1
+spacy==3.5.1
+seaborn==0.12.2
+wordcloud==1.8.2.2
+

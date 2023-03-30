@@ -1,0 +1,89 @@
+/* ===================================== Sidebar Twitter image setup configuration ===================================== */
+.css-1v0mbdj {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.css-1v0mbdj img {
+    max-width: 100%;
+    width: 50%
+}
+
+/* ======================================= Sidebar text ("TWITTER FOR NLP") configuration ======================================= */
+.css-e3xfei h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    /*background: #2daae1;*/
+    border-radius: 12px;
+    color: #2daae1;
+}
+
+/* ======================================= Sidebar buttons configuration ======================================= */
+.css-z09lfk {
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    font-weight: 400;
+    padding: 0.25rem 0.75rem;
+    border-radius: 0.25rem;
+    margin: 0px;
+    line-height: 1.6;
+    color: white;
+    width: auto;
+    user-select: none;
+    background-color: #2daae1;
+}
+
+
+/* ======================================= Sidebar buttons animation configuration ======================================= */
+.css-z09lfk:hover {
+    border-color: white;
+    color: #2daae1;
+    background-color: white;
+}
+
+.css-z09lfk:focus:not(:active) {
+    border-color: white;
+    background-color: white;
+    color: #2daae1;
+}
+
+.css-z09lfk:focus {
+    box-shadow: rgb(144 218 255 / 49%) 0px 0px 0px 0.2rem;
+    outline: none;
+}
+
+
+
+
+.css-10y5sf6 {
+    font-family: "Source Code Pro", monospace;
+    font-size: 14px;
+    padding-bottom: 9.33333px;
+    color: #2daae1;
+    top: -22px;
+    position: absolute;
+    white-space: nowrap;
+    background-color: transparent;
+    line-height: 1.6;
+    font-weight: normal;
+}
+
+.css-demzbm {
+    -webkit-box-align: center;
+    align-items: center;
+    background-color: #2daae1;
+    border-radius: 100%;
+    border-style: none;
+    box-shadow: none;
+    display: flex;
+    height: 0.75rem;
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: 0.75rem;
+}
+
