@@ -1,4 +1,4 @@
-#!/Users/michel-angeadotri/Documents/NLP-Project/project_venv/bin/python3.10
+#!/Users/michel-angeadotri/Documents/NLP_Project/project_venv/bin/python3.9
 # EASY-INSTALL-ENTRY-SCRIPT: 'wordcloud==1.8.2.2','console_scripts','wordcloud_cli'
 import re
 import sys

@@ -1,4 +1,4 @@
-#!/Users/michel-angeadotri/Documents/NLP-Project/project_venv/bin/python3.10
+#!/Users/michel-angeadotri/Documents/NLP_Project/project_venv/bin/python3.9
 # -*- coding: utf-8 -*-
 import re
 import sys
