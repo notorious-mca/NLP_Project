@@ -31,7 +31,7 @@ os.system('python -m spacy download en_core_web_sm')
 os.system("python -m nltk.downloader stopwords")
 os.system("python -m nltk.downloader punkt")
 os.system("python -m nltk.downloader averaged_perceptron_tagger")
-os.system()
+os.system("python -m nltk.downloader brow")
 
 #en_model = spacy.load("en_core_web_sm")
 
