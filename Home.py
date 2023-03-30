@@ -1,7 +1,7 @@
 # ============================================ CREDITS ============================================
 # Author: ADOTRI Frimpong
 # Mail: frimpong.adotri@efrei.net
-# Streamlit App url: https://frimpong-adotri-01-dataviz-lab3-uber-app-vo4lvn.streamlit.app/
+# Streamlit App url: https://frimpong-adotri-01-nlp-project-home-l6xg5d.streamlit.app
 # =================================================================================================
 
 
