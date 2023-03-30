@@ -54,11 +54,11 @@ def scrape_tweets(username:str, start:str, stop:str, maxTweets:int=50) -> pd.Dat
 def appreciation(rate):
   assert rate >=0, "the rate must be a positive value !"
   if rate>=0 and rate<0.005:
-    return "Twitter engagement rate needs improvement !"
+    return "Twitter engagement rate <span style=\"color:red\">needs improvement</span> !"
   elif rate>0.005 and rate<0.037:
-    return "Twitter engagement rate is not bad !"
+    return "Twitter engagement rate is <span style=\"color:orange\">not bad</span> !"
   elif rate>=0.037 and rate<0.098:
-    return "Twitter engagement rate is good !"
+    return "Twitter engagement rate is <span style=\"color:#28b24d\">good</span> !"
   else:
     return "Twitter engagement rate is awesome !"
 
