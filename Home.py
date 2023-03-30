@@ -27,7 +27,7 @@ import spacy
 import os
 os.system('python -m spacy download en_core_web_sm')
 
-en_model = spacy.load("en_core_web_sm")
+#en_model = spacy.load("en_core_web_sm")
 
 # ============================================ PAGE SETUP CONFIGURATION ===================================
 st.set_page_config(
@@ -73,7 +73,7 @@ def text_clean(text:str):
     text=re.sub(pattern,'',text)  #Removing emojis
     #text=re.sub('[^a-zA-ZçÇèÈÉéîïÏÎÔôùÙ\']', ' ', text)
     text = ' '.join([word for word in text.split() if word not in stopwords.words("english")])   # Removing stopwords
-    doc = en_model(text)
+    #doc = en_model(text)
     #text = ' '.join([str(word) for word in doc if not word.is_punct])    # Removing punctuations
     return text
 
