@@ -160,6 +160,10 @@ def main():
             st.markdown("### <span style=\"color:#2daae1\">**Profile**</span>", unsafe_allow_html=True)
             getEntityProfile(twittos)
             kpis(tweets, twittos)
+            st.markdown("***")
+            st.markdown("")
+            st.markdown("### <span style=\"color:#2daae1\">**\"Je sais pas vous mais cette application, c'est trop de la balle !\"**</span>", unsafe_allow_html=True)
+            st.image("./images/hey.jpg")
             #st.markdown("***")
         
 
