@@ -24,6 +24,9 @@ from nltk.corpus import stopwords   # python -m nltk.downloader stopwords
 #nltk.download('averaged_perceptron_tagger') # python -m nltk.downloader averaged_perceptron_tagger
 #nltk.download('brown') # python -m nltk.downloader brown
 import spacy
+import os
+os.system('python -m spacy download en_core_web_sm')
+
 en_model = spacy.load("en_core_web_sm")
 
 # ============================================ PAGE SETUP CONFIGURATION ===================================
